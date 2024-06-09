@@ -37,7 +37,7 @@ jobs:
           image_name_tag=$(echo "$image" | awk -F'/' '{print $NF}')
           new_image="$ALIYUN_REGISTRY/$ALIYUN_NAME_SPACE/$image_name_tag"
           echo "docker tag $image $new_image"
-          docker tag $image $new_image
+          docker tag $image registry.cn-hangzhou.aliyuncs.com/nonese/233m:$new_image
           echo "docker push $new_image"
-          docker push $new_image
+          docker push registry.cn-hangzhou.aliyuncs.com/nonese/233m:$new_image
         done < images.txt
