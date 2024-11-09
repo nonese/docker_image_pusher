@@ -1,1 +1,1 @@
-frooodle/s-pdf
+ghcr.io/open-webui
