@@ -1,1 +1,1 @@
-rustdesek/rustdesk-server
+rustdesk/rustdesk-server
