@@ -1,1 +1,1 @@
-bencdr/code-server-deploy-container:latest
+rustdesek/rustdesk-server
